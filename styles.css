@@ -27,6 +27,7 @@ text-transform: uppercase;
 font-family: var(--heading-font-family);
 font-weight: bold;
 letter-spacing: 10px;
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .hero h2 {
@@ -35,6 +36,7 @@ text-transform: uppercase;
 font-family: var(--default-font-family);
 padding-bottom: 30px;
 letter-spacing: 5px;
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .hero p {
@@ -43,6 +45,7 @@ letter-spacing: 5px;
     font-weight: regular;
     padding: 30px 30px;
     letter-spacing: 2px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .primary-button {
