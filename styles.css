@@ -6,7 +6,6 @@
     --heading-font-family: font-family: "Montserrat", sans-serif;
 }
 
-
 body {
   background-color: black;
 }
@@ -14,8 +13,11 @@ body {
 .hero {
     text-align: center;
 color: var(--font-color);
-padding: 150px 30px ;
-background-image: url("../images/.hero.png");
+padding: 200px 30px;
+background-image: url(/images/hero-overlay.png);
+background-size: cover;
+background-position: center;
+
 
 }
 
@@ -25,7 +27,6 @@ text-transform: uppercase;
 font-family: var(--heading-font-family);
 font-weight: bold;
 letter-spacing: 10px;
-font-border: black;
 }
 
 .hero h2 {
