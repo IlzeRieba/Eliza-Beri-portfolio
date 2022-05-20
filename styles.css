@@ -11,7 +11,7 @@ font-size: 72px;
 text-align: center;
 text-transform: uppercase;
 font-family: var(--heading-font-family);
-font-weight: bold;
+font-weight: lighter;
 letter-spacing: 10px;
 color: white;
 padding-top: 50px;
@@ -25,6 +25,7 @@ font-family: var(--heading-font-family);
 padding-bottom: 30px;
 letter-spacing: 5px;
 color: var(--accent-color);  
+
 }
 
 p {
@@ -87,6 +88,7 @@ padding-left: 100px;
 
 .hero-about-page h1 {
     font-size: 48px;
+    text-align: left;
 text-transform: uppercase;
 font-family: var(--default-font-family);
 padding-bottom: 30px;
@@ -101,6 +103,7 @@ font-family: var(--heading-font-family);
 padding-bottom: 30px;
 letter-spacing: 5px;
 color: var(--accent-color);
+text-align: left;
 
 }
 
@@ -109,6 +112,8 @@ color: var(--accent-color);
     font-size: 18px;
     font-weight: lighter;
     max-width: 50%;
+    text-align: left;
+    padding-bottom: 15px;
 }
 
 .hero H1 {
@@ -126,7 +131,6 @@ text-transform: uppercase;
 font-family: var(--default-font-family);
 padding-bottom: 30px;
 letter-spacing: 5px;
-text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .hero p {
@@ -135,7 +139,6 @@ text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     font-weight: lighter;
     padding: 30px 30px;
     letter-spacing: 2px;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .primary-button {
@@ -168,15 +171,30 @@ text-decoration: none;
     color: rgba(0, 0, 0, 0.267);
 }
 
+.navbar-brand {
+    font-family: var(--default-font-family);
+    font-size: 36px;
+    font-weight: lighter;
+    padding-left: 30px;
+}
 
-.contact-details {
-    line-height: 0px;
-    padding: 0px 10 0 0 ;
+.nav-link {
+    font-family: var(--default-font-family);
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: right;
+}
+
+.nav-link:hover {
+    color: var(--accent-color);
 }
 
 @media (max-width: 600px) 
 {
 
+    H1 {
+        font-size: 36px;
+    }
     .hero H1 {
         font-size: 36px;
         line-height: 4px;
