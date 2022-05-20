@@ -6,6 +6,36 @@
     --heading-font-family: font-family: "Montserrat", sans-serif;
 }
 
+H1 {
+font-size: 72px;
+text-align: center;
+text-transform: uppercase;
+font-family: var(--heading-font-family);
+font-weight: bold;
+letter-spacing: 10px;
+color: white;
+padding-top: 50px;
+}
+
+h3 {
+  font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+font-family: var(--heading-font-family);
+padding-bottom: 30px;
+letter-spacing: 5px;
+color: var(--accent-color);  
+}
+
+p {
+    font-family: var(--default-font-family);
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: center;
+    color: var(--font-color);
+
+}
+
 body {
   background-color: var(--background-color);
   margin-bottom: 75px;
@@ -38,10 +68,21 @@ max-width: 100%;
     text-align: left;
 color: var(--font-color);
 padding: 200px 30px;
-background-image: url(/images/hero-overlay.png);
+background-image: url(/images/IMG_aboutbg.JPG);
   background-size: cover;
 max-width: 100%;
 padding-left: 100px;
+}
+
+.hero-contact-page {
+    text-align: left;
+color: var(--font-color);
+padding: 200px 30px;
+background-image: url(/images/IMG_contactbg.JPG);
+  background-size: cover;
+max-width: 100%;
+padding-left: 100px;
+
 }
 
 .hero-about-page h1 {
@@ -59,7 +100,7 @@ text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 font-family: var(--heading-font-family);
 padding-bottom: 30px;
 letter-spacing: 5px;
-color: #E0E1B6;
+color: var(--accent-color);
 
 }
 
@@ -69,7 +110,6 @@ color: #E0E1B6;
     font-weight: lighter;
     max-width: 50%;
 }
-
 
 .hero H1 {
 font-size: 72px;
@@ -92,7 +132,7 @@ text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 .hero p {
     font-family: var(--default-font-family);
     font-size: 18px;
-    font-weight: regular;
+    font-weight: lighter;
     padding: 30px 30px;
     letter-spacing: 2px;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -128,6 +168,11 @@ text-decoration: none;
     color: rgba(0, 0, 0, 0.267);
 }
 
+
+.contact-details {
+    line-height: 0px;
+    padding: 0px 10 0 0 ;
+}
 
 @media (max-width: 600px) 
 {
