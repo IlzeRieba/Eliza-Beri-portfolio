@@ -39,7 +39,6 @@ p {
 
 body {
   background-color: var(--background-color);
-  margin-bottom: 75px;
 }
 
 img {
@@ -52,6 +51,22 @@ img {
     margin-top: 25px;
     border-radius: 2px;
     margin-bottom: 15px;
+}
+
+
+footer {
+    background: #212529;
+    max-width: 100%;
+}
+footer .social-button  {
+    text-align: center;
+    color: var(--font-color);
+    transition: all 100ms ease-in-out;
+    padding: 25px 10px 20px 10px;
+}
+
+footer .social-button:hover {
+    color: var(--accent-color);
 }
 
 .hero {
@@ -168,13 +183,15 @@ text-decoration: none;
 }
 
 .social-button:hover {
-    color: rgba(0, 0, 0, 0.267);
+    color: var(--accent-color);
 }
 
 .navbar-brand {
     font-family: var(--default-font-family);
     font-size: 36px;
     font-weight: lighter;
+    padding: 0px 40px 0px 40px;
+
 }
 
 .nav-link {
@@ -187,6 +204,7 @@ text-decoration: none;
 .nav-link:hover {
     color: var(--accent-color);
 }
+
 
 @media (max-width: 600px) 
 {
