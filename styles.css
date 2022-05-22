@@ -67,6 +67,20 @@ footer {
     background: #212529;
     max-width: 100%;
 }
+
+small {
+    font: var(--default-font-family);
+    font-size: 8px;
+    color: var(--font-color);
+    padding: 0 30px;
+    text-decoration: none;
+
+}
+
+small:hover {
+    color: var(--accent-color);
+}
+
 footer .social-button  {
     text-align: center;
     color: var(--font-color);
