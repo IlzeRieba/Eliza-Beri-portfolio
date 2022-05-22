@@ -28,6 +28,15 @@ color: var(--accent-color);
 
 }
 
+h4 {
+   font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+font-family: var(--heading-font-family);
+color: var(--accent-color);   
+padding-bottom: 5px;
+}
+
 p {
     font-family: var(--default-font-family);
     font-size: 18px;
